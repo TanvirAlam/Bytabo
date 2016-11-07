@@ -1,0 +1,4 @@
+Header add "disablevcache" "true"
+<Files ~ "\.php?$">
+Header set Content-Type "text/html; charset=UTF-8"
+</Files>
